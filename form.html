@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Car Rental Service</h1>
+  <div class="cars_nav_links">
+    <a href="about.html">Home</a>
+    <a href="form.html">Rent a car</a>
+  </div>
+  <form id="rentalForm">
+    <h2>Customer Details</h2>
+    <label>First Name: <input type="text" id="firstName" ></label><br>
+    <label>Last Name: <input type="text" id="lastName" ></label><br>
+    <label>Phone: <input type="tel" id="phone" ></label><br>
+    <label>Email: <input type="email" id="email" ></label><br>
+
+    <h2>Rental Details</h2>
+    <label>Pick-Up Date: <input type="" id="pickUpDate" ></label>
+    <label>Pick-Up Time: <input type="" id="pickUpTime" ></label>
+    <label>Return Date: <input type="" id="returnDate" ></label>
+    <label>Return Time: <input type="" id="returnTime" ></label>
+    <label>Car Type:
+      <select id="carType">
+        <option value="Economy">Economy</option>
+        <option value="Standard">Standard</option>
+        <option value="Luxury">Luxury</option>
+      </select>
+    </label><br>
+    <label>Additional Services:</label><br>
+    <label><input type="checkbox" id="gps" value="GPS"> GPS</label>
+    <label><input type="checkbox" id="childSeat" value="Child Seat"> Child Seat</label><br>
+    <label>Number of Drivers: <input type="number" id="drivers" min="1" max="2" ></label><br>
+    <button type="submit">Book Now</button>
+  </form>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

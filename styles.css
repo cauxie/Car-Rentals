@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   background-image: url(./img/car-2.jpg);
+   background-size: cover;
+  }
+  
+  .cars_nav_links{
+    display: flex;
+    gap: 45px;
+  }
+  
+  .cars_nav_links a{
+    color: white;
+    font-family: t5;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+  }
+  
+  .cars_nav_links a:hover{
+    color: #08cc8f;
+  }
+  h1, h2 {
+    color: #d71b1b;
+  }
+  
+  form {
+    background: #352a2a;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
